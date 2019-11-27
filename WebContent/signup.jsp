@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 </head>
-<body>
+<body id="main-body">
 
 	<header class="main-header">
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -36,13 +36,16 @@
 
 		</nav>
 		
-			<div class="container">
+			<div class="container formcon">
 	<div class="row">
 	<div class="col-md-1"></div>
 	<div class="col-md-10">
+	<h3 class="text-warning">Registrarse</h3>
 	<form action="" id="form1">
+	
 	 <div class="form-group row">
-                        <label for="nombre" class="col-sm-3 col-form-label">Nombre:</label>
+	 
+                        <label for="nombre" class="col-sm-3 col-form-label text-white">Nombre:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" pattern="^([A-Z]{1}[a-zñáéíóú]+[\s]*)+$" required >
                          <!---   <span id="infoNomb">Nombre es incorrecto!!!</span>-->
@@ -51,7 +54,7 @@
                     </div>
                     <!---div for surnames -->
                     <div class="form-group row">
-                        <label for="apellidos" class="col-sm-3 col-form-label">Primer Apellido:</label>
+                        <label for="apellidos" class="col-sm-3 col-form-label text-white">Primer Apellido:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="apellidos" placeholder="Escribe tu Apellidos" required pattern="^([A-Z]{1}[a-zñáéíóú]+[\s]*)+$">
                            <!-- <span id="infoApel">primero Apellidos es incorrecto!!!</span> --> 
@@ -60,7 +63,7 @@
                     </div>
                     
                      <div class="form-group row">
-                        <label for="segundoApellido" class="col-sm-3 col-form-label">Segundo Apellido:</label>
+                        <label for="segundoApellido" class="col-sm-3 col-form-label text-white">Segundo Apellido:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="segundoApellido" placeholder="Escribe tu Apellidos" required pattern="^([A-Z]{1}[a-zñáéíóú]+[\s]*)+$">
                            <!-- <span id="infoApel">Segundo Apellidos es incorrecto!!!</span> --> 
@@ -68,7 +71,7 @@
 
                     </div>
                      <div class="form-group row">
-                        <label for="direccion" class="col-sm-3 col-form-label">Direccion:</label>
+                        <label for="direccion" class="col-sm-3 col-form-label text-white">Direccion:</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="direccion" placeholder="Escribe tu Apellidos" required pattern="^([A-Z]{1}[a-zñáéíóú]+[\s]*)+$">
                            <!-- <span id="infoApel">Segundo Apellidos es incorrecto!!!</span> --> 
@@ -78,21 +81,21 @@
 
                     <!---div for mail -->
                     <div class="form-group row">
-                        <label for="correo" class="col-sm-3 col-form-label">Correo:</label>
+                        <label for="correo" class="col-sm-3 col-form-label text-white">Correo:</label>
                         <div class="col-sm-9">
                             <input type="email" class="form-control" id="correo" placeholder="Escribe tu Correo" required pattern="^[\w]+@{1}[\w]+\.[a-z]{2,3}$">
                            <!-- <span id="infoCo">Correo incorrecto!!!!</span> --> 
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="tel" class="col-sm-3 col-form-label">Teléfono:</label>
+                        <label for="tel" class="col-sm-3 col-form-label text-white">Teléfono:</label>
                         <div class="col-sm-9">
                             <input type="tel" class="form-control" id="tel" placeholder="Escribe tu Teléfono de contacto" pattern="^[9|6]{1}([\d]{2}[-]*){3}[\d]{2}$" required>
                             <!-- <span id="infoTel">Numero de telefono es incorrecto!!!</span> -->
                         </div>
                     </div>
                     <div class="form-group row">
-                    <label class="col-sm-3 col-form-label">Elige tu TipoTelefono</label>
+                    <label class="col-sm-3 col-form-label text-white">Elige tu TipoTelefono</label>
                     <div class="col-sm-9">
                     <select class="custom-select my-1 mr-sm-4" id="tipoTel">
                     <option></option>

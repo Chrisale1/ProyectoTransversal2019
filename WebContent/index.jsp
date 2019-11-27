@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-<body>
+<body id="inicio">
 	<header class="main-header">
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 			<div class="container">
