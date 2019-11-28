@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *{
 	padding: 0;
 	margin: 0;
@@ -22,6 +23,27 @@
 	
 	
 }
+
+
+.logo{
+	height: 100%;
+	
+	
+}
+
+.mynav a{
+	margin-right: 30px;
+}
+
+.mynav a:hover{
+	border-bottom: 2px solid #ffd700;
+	
+}	
+
+.active a{
+	border-bottom: 2px solid #ffd700;
+}
+
 .formcon{
 	margin-top: 40px;
 	
