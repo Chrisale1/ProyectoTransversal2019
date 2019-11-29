@@ -24,6 +24,18 @@
 	
 }
 
+#log{
+	
+	background-image: url('../images/back.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	
+	
+}
+
 
 .logo{
 	height: 100%;
