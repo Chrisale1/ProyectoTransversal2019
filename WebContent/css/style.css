@@ -4,6 +4,20 @@
 	padding: 0;
 	margin: 0;
 }
+
+#log{
+	
+	background-image: url('../images/logback.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 100vh;
+	
+	
+}
+
 #inicio{
 	background-image: url("../images/inicio.jpg");
 	background-repeat: no-repeat;
@@ -24,17 +38,7 @@
 	
 }
 
-#log{
-	
-	background-image: url('../images/back.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	
-	
-}
+
 
 
 .logo{

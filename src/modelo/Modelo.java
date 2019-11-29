@@ -1,13 +1,15 @@
 package modelo;
 
-import javax.ejb.LocalBean;
+
+
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 
 /**
  * Session Bean implementation class Modelo
  */
 @Stateless
-@LocalBean
+@Local
 public class Modelo {
 
     /**
