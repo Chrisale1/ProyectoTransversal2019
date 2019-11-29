@@ -37,22 +37,24 @@
 
 		</nav>
 
-		<div class="container">
+		<div class="container formlog">
 			<div class="row">
 				<div class="col-md-4 col-sm-4 col-xs-12"></div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
-				    <form>
+				    <form id="form-log">
+				    <h3 >Login</h3>
   <div class="form-group">
-    <label for="user">User</label>
+  
+    <label for="user" class="text-dark text-monospace"><i class="fas fa-users"></i> User</label>
     <input type="email" class="form-control" id="user">
     
   </div>
   <div class="form-group">
-    <label for="password">Password</label>
+    <label for="password" class="text-monospace text-dark"><i class="fas fa-key"></i> Password</label>
     <input type="password" class="form-control" id="password">
   </div>
  
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary btn-block">Submit</button>
 </form>
 				
 				

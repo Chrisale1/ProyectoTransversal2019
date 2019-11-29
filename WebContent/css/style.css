@@ -38,8 +38,26 @@
 	
 }
 
+.formlog label{
+	
+	font-weight: bold;
+}
+#form-log{
+	border: 0px solid #ffffff;
+	padding: 30px 40px;
+	margin-top: 20vh;
 
-
+-webkit-box-shadow: -1px 4px 141px 24px rgba(0,0,0,0.78);
+-moz-box-shadow: -1px 4px 141px 24px rgba(0,0,0,0.78);
+box-shadow: -1px 4px 141px 24px rgba(0,0,0,0.78);
+}
+.formlog h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	margin-bottom: 20px;
+}
 
 .logo{
 	height: 100%;
@@ -75,5 +93,9 @@
 }
 #form1{
 	font-family: Zapf Chancery, cursive;
+	-webkit-box-shadow: inset -1px -14px 185px 24px rgba(0,0,0,0.78);
+-moz-box-shadow: inset -1px -14px 185px 24px rgba(0,0,0,0.78);
+box-shadow: inset -1px -14px 185px 24px rgba(0,0,0,0.78); 
+padding: 30px 40px;
 	
 }
